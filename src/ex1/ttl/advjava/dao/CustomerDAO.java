@@ -16,7 +16,7 @@ public class CustomerDAO {
 		customers.add(new CustomerBuilder().id(nextId++).name("Joe")
 				.status(Customer.Status.NORMAL).build());
 		
-		customers.add(new CustomerBuilder().id(nextId++).name("Sammy")
+		customers.add(new CustomerBuilder().id(nextId++).name("JSammy")
 				.status(Customer.Status.RESTRICTED).build());
 		
 		customers.add(new CustomerBuilder().id(nextId++).name("Ana")
